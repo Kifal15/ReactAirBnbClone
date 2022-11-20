@@ -1,0 +1,41 @@
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer > p {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer .info_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+    
+}
+
+.footer .info_footer .about h5{ 
+    margin-bottom: 10px;
+    
+}
+
+.footer .info_footer .about li{ 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 12px;
+    
+}
+
+@media screen and (max-width: 701px) {
+    .footer .info_footer .about{
+      display: none;
+      
+    }
+  }
